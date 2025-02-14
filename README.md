@@ -116,19 +116,3 @@ mvn spring-boot:run
     "createdOn": 1700000000000
   }
 ]
-
-
-## 🔐 Validation Rules
-
-The application ensures data integrity with the following validation rules:
-
-- 🟢 **Center Name:** Cannot be empty.  
-- 🟢 **Center Code:** Must be exactly 12 alphanumeric characters.  
-- 🟢 **Phone Number:** Must be exactly 10 digits.  
-- 🟢 **Pincode:** Must be exactly 6 digits.  
-- 🟢 **Address Fields:** All fields are mandatory.  
-
-**Error Message Examples:**  
-- `Center Name is required.`  
-- `Center Code must be exactly 12 alphanumeric characters.`  
-- `Phone number must be exactly 10 digits.`  
